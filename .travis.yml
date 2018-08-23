@@ -7,4 +7,4 @@ services:
 - docker
 
 script:
-- cd dind && bash -x start.sh
+- cd dind && sudo -E bash -x start.sh
