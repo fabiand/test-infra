@@ -1,0 +1,10 @@
+sudo: required
+dist: xenial
+
+language: generic
+
+services:
+- docker
+
+script:
+- cd dind && sudo -E bash -x start.sh
